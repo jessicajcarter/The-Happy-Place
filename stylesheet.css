@@ -1,7 +1,10 @@
 *{
 	text-align: center;
 }
+
+
 body{
+	padding-top: 70px;
 	background-image: url("blue_sky.jpg");
 	background-size: cover;
 }	
@@ -18,7 +21,12 @@ h2 {
 }
 
 .p_intro {
-	color: #ff1ac6;
+	color: #ffd633;
+	font-family: Georgia; font-size: 2em;
+}
+
+#orange {
+	color:#ff8c1a;
 	font-family: Georgia; font-size: 2em;
 }
 
@@ -43,3 +51,19 @@ a {
 	color: #ff8c1a;
 	font-size:2em; font-family: Georgia;
 }
+blockquote{
+	color:#ff3399;
+	font-size:2.5em; font-family: Lucida;
+
+}
+
+
+
+
+
+
+
+
+
+
+
