@@ -3,7 +3,6 @@
 }
 body{
 	background-image: url("blue_sky.jpg");
-	repeat: no-repeat;
 	background-size: cover;
 }	
 
@@ -21,4 +20,26 @@ h2 {
 .p_intro {
 	color: #ff1ac6;
 	font-family: Georgia; font-size: 2em;
+}
+
+.quote {
+	color: #ffd633;
+	font-family: Lucida; font-size: 2em;
+}
+
+a {
+	color: #ff8c1a;
+	font-family: Georgia; font-size: 2em;
+}
+	a:visited { color: #ff3399;
+
+	}
+#passion_life_work {
+	color:#00cccc;
+	text-shadow: -1px 0 #ff8c1a, 0 1px #ff8c1a, 1px 0 #ff8c1a, 0 -1px #ff8c1a;
+	font-size:2.5em;
+}
+#click_image {
+	color: #ff8c1a;
+	font-size:2em; font-family: Georgia;
 }
