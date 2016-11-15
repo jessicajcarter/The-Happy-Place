@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> The Happy Place </title>
+  <script src="jquery-3.1.1.js"></script>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist copy/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">	
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">The Happy Place</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="submissions_page.html">Submissions</a></li>
+        <li><a href="previous_submissions.html">Past Submissions</a></li> 
+        <li><a href="top_secret.html">Top Secret</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<h1>Submissions</h1>
+<h3>Upload your own uplifting story or inspirational thoughts using the form below! </h3>    
+
+
+<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">First Name </label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Your first name" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Surname (optional) </label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Your Surname">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email </label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Your Email Address" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Your Story</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Write your story here" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
+    </div>
+
+</form>
+      
+
+
+</html>
